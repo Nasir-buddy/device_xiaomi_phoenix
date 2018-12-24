@@ -98,3 +98,9 @@ ro.com.google.ime.kb_pad_port_b=1
 
 # Vulkan
 debug.hwui.renderer=skiavk
+
+# Dex2oat
+dalvik.vm.dex2oat64.enabled=true
+
+# Fingerprint Payment for China apps
+persist.vendor.sys.pay.ifaa=1
