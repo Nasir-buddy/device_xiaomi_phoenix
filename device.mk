@@ -442,6 +442,7 @@ PRODUCT_EXTRA_VNDK_VERSIONS := 29
 
 # Binder
 PRODUCT_PACKAGES += \
+    libhidltransport \
+    libhidltransport.vendor \
     libhwbinder \
-    libhwbinder.vendor \
-    libhidltransport
+    libhwbinder.vendor
