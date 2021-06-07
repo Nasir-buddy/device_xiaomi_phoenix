@@ -60,11 +60,13 @@ constexpr const char *DEVICES[] = {
 };
 
 constexpr const char *BUILD_DESCRIPTION[] = {
-    "walleye-user 8.1.0 OPM1.171019.011 4448085 release-keys",
+    "redfin-user 11 RQ3A.210605.005 7349499 release-keys",
+    "redfin-user 11 RQ3A.210605.005 7349499 release-keys",
 };
 
 constexpr const char *BUILD_FINGERPRINT[] = {
-    "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys",
+    "google/redfin/redfin:11/RQ3A.210605.005/7349499:user/release-keys",
+    "google/redfin/redfin:11/RQ3A.210605.005/7349499:user/release-keys",
 };
 
 constexpr const char *CLIENT_ID[] = {
