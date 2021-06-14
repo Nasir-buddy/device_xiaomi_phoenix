@@ -6,19 +6,24 @@
 
 $(call inherit-product, device/xiaomi/phoenix/device.mk)
 
-# Inherit some common ArrowOS stuff.
-$(call inherit-product, vendor/arrow/config/common.mk)
+# Inherit some common legion stuff.
+$(call inherit-product, vendor/legion/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := arrow_phoenix
+PRODUCT_NAME := legion_phoenix
 PRODUCT_DEVICE := phoenix
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := POCO X2
 PRODUCT_MANUFACTURER := Xiaomi
 
-# ArrowOS Properties
-TARGET_GAPPS_ARCH := arm64
+# Gapps and stuff 
 TARGET_BOOT_ANIMATION_RES := 1080
-DEVICE_MAINTAINER := Sreekanth
+TARGET_INCLUDE_GAPPS := false
+TARGET_GAPPS_ARCH := arm64
+
+# legion Properties
+LEGION_MAINTAINER := NasirAli
+
+BUILD_FINGERPRINT := POCO/phoenixin/phoenixin:11/RKQ1.200826.002/V12.1.3.0.RGHINXM:user/release-keys
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
