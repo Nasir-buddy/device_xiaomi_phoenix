@@ -22,8 +22,12 @@ LEGION_BUILD_TYPE := OFFICIAL
 TARGET_INCLUDE_GAPPS := false
 TARGET_GAPPS_ARCH := arm64
 
+# LegionOS Device Maintainers
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.maintainer.name=NasirAli
+
 # legion Properties
-LEGION_MAINTAINER := NasirAli
+LEGION_MAINTAINER := NasirAli 
 
 BUILD_FINGERPRINT := POCO/phoenixin/phoenixin:11/RKQ1.200826.002/V12.1.3.0.RGHINXM:user/release-keys
 
