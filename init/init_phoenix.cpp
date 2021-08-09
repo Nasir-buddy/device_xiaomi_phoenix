@@ -59,12 +59,14 @@ constexpr const char *DEVICES[] = {
     "POCO X2",
 };
 
-constexpr const char *BUILD_DESCRIPTION[] = {
-    "walleye-user 8.1.0 OPM1.171019.011 4448085 release-keys",
+constexpr const char *BUILD_FINGERPRINT[] = {
+    "redfin-user 11 RQ3A.210805.001.A1 7474174 release-keys",
+    "redfin-user 11 RQ3A.210805.001.A1 7474174 release-keys",
 };
 
 constexpr const char *BUILD_FINGERPRINT[] = {
-    "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys",
+    "google/redfin/redfin:11/RQ3A.210805.001.A1/7474174:user/release-keys",
+    "google/redfin/redfin:11/RQ3A.210805.001.A1/7474174:user/release-keys",
 };
 
 constexpr const char *CLIENT_ID[] = {
