@@ -1,0 +1,20 @@
+[
+  {
+    "repository": "legionos-devices/kernel_xiaomi_phoenix",
+    "target_path": "kernel/xiaomi/phoenix"
+	"branch":      "11"
+	"remote": "github"
+  },
+  {
+    "repository" : "legionos-devices/device_xiaomi_phoenix",
+    "target_path": "device/xiaomi/phoenix",
+    "branch": "11",
+    "remote": "github"
+  },
+  {
+    "repository" : "legionos-devices/vendor_xiaomi_phoenix",
+    "target_path": "vendor/xiaomi/phoenix",
+    "branch": "11",
+    "remote": "github"
+  }
+]
