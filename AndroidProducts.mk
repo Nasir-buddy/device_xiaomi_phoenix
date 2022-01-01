@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_phoenix.mk
+    $(LOCAL_DIR)/spark_phoenix.mk
+
+COMMON_LUNCH_CHOICES := \
+    spark_phoenix-user \
+    spark_phoenix-userdebug \
+    spark_phoenix-eng
