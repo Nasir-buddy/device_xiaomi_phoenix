@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/spark_phoenix.mk
+    $(LOCAL_DIR)/ancient_phoenix.mk
 
 COMMON_LUNCH_CHOICES := \
-    spark_phoenix-user \
-    spark_phoenix-userdebug \
-    spark_phoenix-eng
+    ancient_phoenix-user \
+    ancient_phoenix-userdebug \
+    ancient_phoenix-eng
